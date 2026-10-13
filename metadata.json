@@ -1,0 +1,6 @@
+{
+  "name": "Diagramma a Conchiglia: Musei e Categorie",
+  "description": "Visualizzazione a corda a conchiglia con D3.js: 11 macro aree museali, 105 musei e 5 categorie con punti terminali.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

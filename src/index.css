@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Cambria';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cambria Bold Italic'), local('Cambria-BoldItalic'), local('Cambria Italic'), local('Cambria'), url('https://fonts.gstatic.com/s/caladea/v10/kJE0BugZ7AAjhybUvR1FQ98iq8ZyJ561DQ.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cambria';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cambria Italic'), local('Cambria-Italic'), local('Cambria'), url('https://fonts.gstatic.com/s/caladea/v10/kJExBugZ7AAjhybUvR1N-Po3huR_DQ.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cambria';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cambria'), url('https://fonts.gstatic.com/s/caladea/v10/kJEzBugZ7AAjhybUvRh9-vAwpOY.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cambria';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cambria Bold'), local('Cambria-Bold'), local('Cambria'), url('https://fonts.gstatic.com/s/caladea/v10/kJE2BugZ7AAjhybUtaNY790Sqcx1BZw.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cambria-Italic';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cambria Bold Italic'), local('Cambria-BoldItalic'), url('https://fonts.gstatic.com/s/caladea/v10/kJE0BugZ7AAjhybUvR1FQ98iq8ZyJ561DQ.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cambria-Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cambria Italic'), local('Cambria-Italic'), url('https://fonts.gstatic.com/s/caladea/v10/kJExBugZ7AAjhybUvR1N-Po3huR_DQ.woff2') format('woff2');
+}
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: #13100D;
+    background-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-cambria-italic {
+  font-family: 'Cambria', 'Cambria-Italic', 'Caladea', Georgia, serif !important;
+  font-style: italic !important;
+}
+
+.font-cambria-bold-italic {
+  font-family: 'Cambria', 'Cambria-Italic', 'Caladea', Georgia, serif !important;
+  font-style: italic !important;
+  font-weight: 700 !important;
+}
+
+.font-serif {
+  font-family: 'Cambria', 'Cambria-Italic', 'Caladea', Georgia, serif !important;
+}
+
+.font-sans {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom scrollbars matching the palette */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #DADADA;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9D9D9C;
+}

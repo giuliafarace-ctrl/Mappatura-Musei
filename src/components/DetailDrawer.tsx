@@ -128,19 +128,19 @@ export const DetailDrawer: React.FC<DetailDrawerProps> = ({
               </div>
               <div className="grid grid-cols-1 gap-1.5 text-xs">
                 <div className="flex items-center justify-between">
-                  <span className="text-slate-500">Classe Didattica (Forma):</span>
+                  <span className="text-slate-500">Classe Didattica:</span>
                   <span className="font-semibold text-slate-900 text-right">
                     {EDUCATIONAL_CLASS_LABELS[selectedMus.educationalClass || 'didattica_informativa']}
                   </span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-slate-500">Area Geografica (Colore):</span>
+                  <span className="text-slate-500">Area Geografica:</span>
                   <span className="font-semibold text-slate-900 text-right">
                     {GEOGRAPHIC_AREA_LABELS[selectedMus.geographicArea || 'centro']}
                   </span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-slate-500">Classe Utenza (Segno):</span>
+                  <span className="text-slate-500">Classe Utenza:</span>
                   <span className="font-semibold text-slate-900 text-right">
                     {TARGET_AUDIENCE_LABELS[selectedMus.targetAudience || 'tutti']}
                   </span>

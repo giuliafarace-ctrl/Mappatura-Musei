@@ -151,7 +151,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M002",
@@ -167,7 +167,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M003",
@@ -184,7 +184,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M004",
@@ -201,7 +201,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M005",
@@ -217,7 +217,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M006",
@@ -237,7 +237,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "bambini",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M007",
@@ -254,7 +254,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Isernia",
-        "region": "Isernia"
+        "region": "Molise"
     },
     {
         "id": "M008",
@@ -271,7 +271,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Termoli",
-        "region": "Termoli"
+        "region": "Molise"
     },
     {
         "id": "M009",
@@ -289,7 +289,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Saint-Pierre",
-        "region": "Saint-Pierre"
+        "region": "Valle d'Aosta"
     },
     {
         "id": "M010",
@@ -308,7 +308,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "bambini",
         "geographicArea": "nord",
         "city": "Bard",
-        "region": "Bard"
+        "region": "Valle d'Aosta"
     },
     {
         "id": "M011",
@@ -325,7 +325,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Matera",
-        "region": "Matera"
+        "region": "Basilicata"
     },
     {
         "id": "M012",
@@ -342,7 +342,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "L'Aquila",
-        "region": "L'Aquila"
+        "region": "Abruzzo"
     },
     {
         "id": "M013",
@@ -358,7 +358,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Celano",
-        "region": "Celano"
+        "region": "Abruzzo"
     },
     {
         "id": "M014",
@@ -374,7 +374,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Pescara",
-        "region": "Pescara"
+        "region": "Abruzzo"
     },
     {
         "id": "M015",
@@ -394,7 +394,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Trento",
-        "region": "Trento"
+        "region": "Trentino-Alto Adige"
     },
     {
         "id": "M016",
@@ -414,7 +414,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Trento",
-        "region": "Trento"
+        "region": "Trentino-Alto Adige"
     },
     {
         "id": "M017",
@@ -433,7 +433,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Rovereto",
-        "region": "Rovereto"
+        "region": "Trentino-Alto Adige"
     },
     {
         "id": "M018",
@@ -453,7 +453,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Trieste",
-        "region": "Trieste"
+        "region": "Friuli-Venezia Giulia"
     },
     {
         "id": "M019",
@@ -472,7 +472,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Trieste",
-        "region": "Trieste"
+        "region": "Friuli-Venezia Giulia"
     },
     {
         "id": "M020",
@@ -492,7 +492,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Grignano",
-        "region": "Grignano"
+        "region": "Friuli-Venezia Giulia"
     },
     {
         "id": "M021",
@@ -508,7 +508,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Cabras",
-        "region": "Cabras"
+        "region": "Sardegna"
     },
     {
         "id": "M022",
@@ -525,7 +525,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Cagliari",
-        "region": "Cagliari"
+        "region": "Sardegna"
     },
     {
         "id": "M023",
@@ -542,7 +542,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Lunamatrona",
-        "region": "Lunamatrona"
+        "region": "Sardegna"
     },
     {
         "id": "M024",
@@ -561,7 +561,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "bambini",
         "geographicArea": "nord",
         "city": "Genova",
-        "region": "Genova"
+        "region": "Liguria"
     },
     {
         "id": "M025",
@@ -580,7 +580,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Genova",
-        "region": "Genova"
+        "region": "Liguria"
     },
     {
         "id": "M026",
@@ -600,7 +600,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Genova",
-        "region": "Genova"
+        "region": "Liguria"
     },
     {
         "id": "M027",
@@ -619,7 +619,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Genova",
-        "region": "Genova"
+        "region": "Liguria"
     },
     {
         "id": "M028",
@@ -636,7 +636,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Verona",
-        "region": "Verona"
+        "region": "Veneto"
     },
     {
         "id": "M029",
@@ -654,7 +654,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Verona",
-        "region": "Verona"
+        "region": "Veneto"
     },
     {
         "id": "M030",
@@ -673,7 +673,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Venezia",
-        "region": "Venezia"
+        "region": "Veneto"
     },
     {
         "id": "M031",
@@ -693,7 +693,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "bambini",
         "geographicArea": "nord",
         "city": "Verona",
-        "region": "Verona"
+        "region": "Veneto"
     },
     {
         "id": "M032",
@@ -712,7 +712,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "bambini",
         "geographicArea": "nord",
         "city": "Treviso",
-        "region": "Treviso"
+        "region": "Veneto"
     },
     {
         "id": "M033",
@@ -732,7 +732,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Reggio Calabria",
-        "region": "Reggio Calabria"
+        "region": "Calabria"
     },
     {
         "id": "M034",
@@ -749,7 +749,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Papasidero",
-        "region": "Papasidero"
+        "region": "Calabria"
     },
     {
         "id": "M035",
@@ -766,7 +766,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Mammola",
-        "region": "Mammola"
+        "region": "Calabria"
     },
     {
         "id": "M036",
@@ -783,7 +783,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Cosenza",
-        "region": "Cosenza"
+        "region": "Calabria"
     },
     {
         "id": "M037",
@@ -802,7 +802,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Borgo Celano",
-        "region": "Borgo Celano"
+        "region": "Puglia"
     },
     {
         "id": "M038",
@@ -819,7 +819,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Andria",
-        "region": "Andria"
+        "region": "Puglia"
     },
     {
         "id": "M039",
@@ -835,7 +835,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Manfredonia",
-        "region": "Manfredonia"
+        "region": "Puglia"
     },
     {
         "id": "M040",
@@ -853,7 +853,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Taranto",
-        "region": "Taranto"
+        "region": "Puglia"
     },
     {
         "id": "M041",
@@ -870,7 +870,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Perugia",
-        "region": "Perugia"
+        "region": "Umbria"
     },
     {
         "id": "M042",
@@ -886,7 +886,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Precetto",
-        "region": "Precetto"
+        "region": "Umbria"
     },
     {
         "id": "M043",
@@ -902,7 +902,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Perugia",
-        "region": "Perugia"
+        "region": "Umbria"
     },
     {
         "id": "M044",
@@ -918,7 +918,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Agrigento",
-        "region": "Agrigento"
+        "region": "Sicilia"
     },
     {
         "id": "M045",
@@ -934,7 +934,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Favara",
-        "region": "Favara"
+        "region": "Sicilia"
     },
     {
         "id": "M046",
@@ -950,7 +950,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Trapani",
-        "region": "Trapani"
+        "region": "Sicilia"
     },
     {
         "id": "M047",
@@ -968,7 +968,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Giardini Naxos",
-        "region": "Giardini Naxos"
+        "region": "Sicilia"
     },
     {
         "id": "M048",
@@ -986,7 +986,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "speciale",
         "geographicArea": "sud_isole",
         "city": "Catania",
-        "region": "Catania"
+        "region": "Sicilia"
     },
     {
         "id": "M049",
@@ -1006,7 +1006,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Napoli",
-        "region": "Napoli"
+        "region": "Campania"
     },
     {
         "id": "M050",
@@ -1023,7 +1023,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Napoli",
-        "region": "Napoli"
+        "region": "Campania"
     },
     {
         "id": "M051",
@@ -1043,7 +1043,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Caserta",
-        "region": "Caserta"
+        "region": "Campania"
     },
     {
         "id": "M052",
@@ -1062,7 +1062,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Pompei",
-        "region": "Pompei"
+        "region": "Campania"
     },
     {
         "id": "M053",
@@ -1082,7 +1082,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "sud_isole",
         "city": "Napoli",
-        "region": "Napoli"
+        "region": "Campania"
     },
     {
         "id": "M054",
@@ -1102,7 +1102,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Colli al Metauro",
-        "region": "Colli al Metauro"
+        "region": "Marche"
     },
     {
         "id": "M055",
@@ -1119,7 +1119,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Recanati",
-        "region": "Recanati"
+        "region": "Marche"
     },
     {
         "id": "M056",
@@ -1138,7 +1138,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Fabriano",
-        "region": "Fabriano"
+        "region": "Marche"
     },
     {
         "id": "M057",
@@ -1157,7 +1157,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Urbino",
-        "region": "Urbino"
+        "region": "Marche"
     },
     {
         "id": "M058",
@@ -1174,7 +1174,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "speciale",
         "geographicArea": "centro",
         "city": "Ancona",
-        "region": "Ancona"
+        "region": "Marche"
     },
     {
         "id": "M059",
@@ -1193,7 +1193,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "San Benedetto del Tronto",
-        "region": "San Benedetto del Tronto"
+        "region": "Marche"
     },
     {
         "id": "M060",
@@ -1211,7 +1211,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M061",
@@ -1230,7 +1230,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M062",
@@ -1247,7 +1247,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Roma",
-        "region": "Roma"
+        "region": "Lazio"
     },
     {
         "id": "M063",
@@ -1266,7 +1266,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Milano",
-        "region": "Milano"
+        "region": "Lombardia"
     },
     {
         "id": "M064",
@@ -1282,7 +1282,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Milano",
-        "region": "Milano"
+        "region": "Lombardia"
     },
     {
         "id": "M065",
@@ -1299,7 +1299,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Milano",
-        "region": "Milano"
+        "region": "Lombardia"
     },
     {
         "id": "M066",
@@ -1319,7 +1319,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Milano",
-        "region": "Milano"
+        "region": "Lombardia"
     },
     {
         "id": "M067",
@@ -1339,7 +1339,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Milano",
-        "region": "Milano"
+        "region": "Lombardia"
     },
     {
         "id": "M068",
@@ -1358,7 +1358,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Gallarate",
-        "region": "Gallarate"
+        "region": "Lombardia"
     },
     {
         "id": "M069",
@@ -1376,7 +1376,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Milano",
-        "region": "Milano"
+        "region": "Lombardia"
     },
     {
         "id": "M070",
@@ -1396,7 +1396,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Milano",
-        "region": "Milano"
+        "region": "Lombardia"
     },
     {
         "id": "M071",
@@ -1416,7 +1416,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Milano",
-        "region": "Milano"
+        "region": "Lombardia"
     },
     {
         "id": "M072",
@@ -1434,7 +1434,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "speciale",
         "geographicArea": "nord",
         "city": "Varese",
-        "region": "Varese"
+        "region": "Lombardia"
     },
     {
         "id": "M073",
@@ -1452,7 +1452,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Bologna",
-        "region": "Bologna"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M074",
@@ -1469,7 +1469,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Bologna",
-        "region": "Bologna"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M075",
@@ -1487,7 +1487,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Modena / Maranello",
-        "region": "Modena / Maranello"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M076",
@@ -1505,7 +1505,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "speciale",
         "geographicArea": "nord",
         "city": "Bologna",
-        "region": "Bologna"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M077",
@@ -1522,7 +1522,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Bologna",
-        "region": "Bologna"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M078",
@@ -1539,7 +1539,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Bologna",
-        "region": "Bologna"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M079",
@@ -1558,7 +1558,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "S. Alberto",
-        "region": "S. Alberto"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M080",
@@ -1575,7 +1575,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Bologna",
-        "region": "Bologna"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M081",
@@ -1594,7 +1594,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Bardi",
-        "region": "Bardi"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M082",
@@ -1612,7 +1612,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Bologna",
-        "region": "Bologna"
+        "region": "Emilia-Romagna"
     },
     {
         "id": "M083",
@@ -1631,7 +1631,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "bambini",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M084",
@@ -1647,7 +1647,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Omegna",
-        "region": "Omegna"
+        "region": "Piemonte"
     },
     {
         "id": "M085",
@@ -1667,7 +1667,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M086",
@@ -1686,7 +1686,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M087",
@@ -1704,7 +1704,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M088",
@@ -1721,7 +1721,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M089",
@@ -1739,7 +1739,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M090",
@@ -1758,7 +1758,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M091",
@@ -1777,7 +1777,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M092",
@@ -1795,7 +1795,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Torino",
-        "region": "Torino"
+        "region": "Piemonte"
     },
     {
         "id": "M093",
@@ -1813,7 +1813,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "nord",
         "city": "Spinetta Marengo",
-        "region": "Spinetta Marengo"
+        "region": "Piemonte"
     },
     {
         "id": "M094",
@@ -1829,7 +1829,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Firenze",
-        "region": "Firenze"
+        "region": "Toscana"
     },
     {
         "id": "M095",
@@ -1846,7 +1846,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Firenze",
-        "region": "Firenze"
+        "region": "Toscana"
     },
     {
         "id": "M096",
@@ -1863,7 +1863,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Firenze",
-        "region": "Firenze"
+        "region": "Toscana"
     },
     {
         "id": "M097",
@@ -1881,7 +1881,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Pieve Santo Stefano",
-        "region": "Pieve Santo Stefano"
+        "region": "Toscana"
     },
     {
         "id": "M098",
@@ -1898,7 +1898,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Prato",
-        "region": "Prato"
+        "region": "Toscana"
     },
     {
         "id": "M099",
@@ -1918,7 +1918,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Pisa",
-        "region": "Pisa"
+        "region": "Toscana"
     },
     {
         "id": "M100",
@@ -1935,7 +1935,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Pisa",
-        "region": "Pisa"
+        "region": "Toscana"
     },
     {
         "id": "M101",
@@ -1953,7 +1953,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Firenze",
-        "region": "Firenze"
+        "region": "Toscana"
     },
     {
         "id": "M102",
@@ -1973,7 +1973,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Firenze",
-        "region": "Firenze"
+        "region": "Toscana"
     },
     {
         "id": "M103",
@@ -1991,7 +1991,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Carrara",
-        "region": "Carrara"
+        "region": "Toscana"
     },
     {
         "id": "M104",
@@ -2009,7 +2009,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Pontremoli",
-        "region": "Pontremoli"
+        "region": "Toscana"
     },
     {
         "id": "M105",
@@ -2027,7 +2027,7 @@ export const initialDataset: Dataset = {
         "targetAudience": "tutti",
         "geographicArea": "centro",
         "city": "Lucca",
-        "region": "Lucca"
+        "region": "Toscana"
     }
 ]
 };

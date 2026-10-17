@@ -228,18 +228,18 @@ export const FixedSidebarLegend: React.FC<FixedSidebarLegendProps> = ({
             <span className="text-[10px] text-[#13100D] font-bold uppercase tracking-wider block">
               Area Geografica
             </span>
-            <div className="grid grid-cols-3 items-center text-[11px]">
-              {/* Nord - allineato a sinistra */}
+            <div className="flex items-center gap-2 text-[11px]">
+              {/* Nord */}
               <button
                 key="nord"
                 onClick={() => onToggleGeographicArea('nord')}
-                className={`flex items-center gap-1.5 py-1 px-1 rounded transition-colors cursor-pointer justify-start w-fit ${
+                className={`flex items-center gap-1.5 py-1 px-1.5 rounded transition-colors cursor-pointer shrink-0 ${
                   filterGeographicArea === 'nord'
                     ? 'bg-[#DADADA]/40 font-bold text-[#13100D]'
                     : 'hover:bg-[#DADADA]/20 text-[#9D9D9C]'
                 }`}
               >
-                <svg className="w-4.5 h-4.5 overflow-visible shrink-0" viewBox="0 0 16 16">
+                <svg className="w-4 h-4 overflow-visible shrink-0" viewBox="0 0 16 16">
                   <circle cx="8" cy="8" r="7" fill="#13100D" />
                   <circle cx="8" cy="8" r="3.6" fill="#E6332A" />
                 </svg>
@@ -251,17 +251,17 @@ export const FixedSidebarLegend: React.FC<FixedSidebarLegendProps> = ({
                 </span>
               </button>
 
-              {/* Centro - esattamente centrato tra Nord e Sud e Isole */}
+              {/* Centro */}
               <button
                 key="centro"
                 onClick={() => onToggleGeographicArea('centro')}
-                className={`flex items-center gap-1.5 py-1 px-1.5 rounded transition-colors cursor-pointer justify-center mx-auto w-fit ${
+                className={`flex items-center gap-1.5 py-1 px-1.5 rounded transition-colors cursor-pointer shrink-0 ${
                   filterGeographicArea === 'centro'
                     ? 'bg-[#DADADA]/40 font-bold text-[#13100D]'
                     : 'hover:bg-[#DADADA]/20 text-[#9D9D9C]'
                 }`}
               >
-                <svg className="w-4.5 h-4.5 overflow-visible shrink-0" viewBox="0 0 16 16">
+                <svg className="w-4 h-4 overflow-visible shrink-0" viewBox="0 0 16 16">
                   <circle cx="8" cy="8" r="7" fill="#13100D" />
                   <circle cx="8" cy="8" r="3.6" fill="#00A6BA" />
                 </svg>
@@ -273,23 +273,23 @@ export const FixedSidebarLegend: React.FC<FixedSidebarLegendProps> = ({
                 </span>
               </button>
 
-              {/* Sud e Isole - allineato a destra */}
+              {/* Sud e Isole */}
               <button
-                key="sud"
-                onClick={() => onToggleGeographicArea('sud')}
-                className={`flex items-center gap-1.5 py-1 px-1 rounded transition-colors cursor-pointer justify-end ml-auto w-fit ${
-                  filterGeographicArea === 'sud'
+                key="sud_isole"
+                onClick={() => onToggleGeographicArea('sud_isole')}
+                className={`flex items-center gap-1.5 py-1 px-1.5 rounded transition-colors cursor-pointer shrink-0 ${
+                  filterGeographicArea === 'sud_isole' || filterGeographicArea === 'sud'
                     ? 'bg-[#DADADA]/40 font-bold text-[#13100D]'
                     : 'hover:bg-[#DADADA]/20 text-[#9D9D9C]'
                 }`}
               >
-                <svg className="w-4.5 h-4.5 overflow-visible shrink-0" viewBox="0 0 16 16">
+                <svg className="w-4 h-4 overflow-visible shrink-0" viewBox="0 0 16 16">
                   <circle cx="8" cy="8" r="7" fill="#13100D" />
                   <circle cx="8" cy="8" r="3.6" fill="#F3D230" />
                 </svg>
                 <span
                   style={{ fontFamily: "'Cambria', 'Cambria-Italic', 'Caladea', Georgia, serif" }}
-                  className={`italic whitespace-nowrap ${filterGeographicArea === 'sud' ? 'text-[#13100D] font-bold' : 'text-[#9D9D9C]'}`}
+                  className={`italic whitespace-nowrap ${filterGeographicArea === 'sud_isole' || filterGeographicArea === 'sud' ? 'text-[#13100D] font-bold' : 'text-[#9D9D9C]'}`}
                 >
                   Sud e Isole
                 </span>

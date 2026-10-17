@@ -767,9 +767,15 @@ export const ShellChordDiagram: React.FC<ShellChordDiagramProps> = ({
                   let glyphSize = 4.0;         // Forma Semiotica Interna: Scalata a 4px, posizionata al centro
 
                   // Verifica filtro segnalini della legenda (Classe didattica, Area geografica, Classe utenza)
+                  const isSudFilter = filterGeographicArea === 'sud_isole' || filterGeographicArea === 'sud';
+                  const matchesGeoArea = !filterGeographicArea ||
+                    (isSudFilter
+                      ? mus.geographicArea === 'sud_isole'
+                      : mus.geographicArea === filterGeographicArea);
+
                   const matchesLegendFilter =
                     (!filterEducationalClass || mus.educationalClass === filterEducationalClass) &&
-                    (!filterGeographicArea || mus.geographicArea === filterGeographicArea) &&
+                    matchesGeoArea &&
                     (!filterTargetAudience || mus.targetAudience === filterTargetAudience);
 
                   if (focusMuseum) {

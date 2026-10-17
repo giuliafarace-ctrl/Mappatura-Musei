@@ -25,23 +25,23 @@ export function getGeographicColor(area?: GeographicArea): string {
 }
 
 export const EDUCATIONAL_CLASS_LABELS: Record<EducationalClass, string> = {
-  progettati_educare: 'Musei progettati per educare (Triangolo)',
-  percorsi_progettati: 'Musei con percorsi didattici progettati (Pentagono)',
-  didattica_informativa: 'Musei con didattica informativa (Quadrato)',
-  senza_progetto: 'Musei senza progetto didattico (Esagono)',
+  progettati_educare: 'Musei progettati per educare',
+  percorsi_progettati: 'Musei con percorsi didattici progettati',
+  didattica_informativa: 'Musei con didattica informativa',
+  senza_progetto: 'Musei senza progetto didattico',
 };
 
 export const TARGET_AUDIENCE_LABELS: Record<TargetAudience, string> = {
-  tutti: 'Tutti (Vuoto)',
-  speciale: 'Speciale (Puntino al centro nero)',
-  bambini: 'Bambini (Linea verticale nera)',
-  adulti: 'Adulti (Croce nera)',
+  tutti: 'Tutti',
+  speciale: 'Speciale',
+  bambini: 'Bambini',
+  adulti: 'Adulti',
 };
 
 export const GEOGRAPHIC_AREA_LABELS: Record<GeographicArea, string> = {
-  nord: 'Nord (Rosso #E6332A)',
-  centro: 'Centro (Blu #00A6BA)',
-  sud_isole: 'Sud & Isole (Giallo #F3D230)',
+  nord: 'Nord',
+  centro: 'Centro',
+  sud_isole: 'Sud e Isole',
 };
 
 export const MuseumGlyph: React.FC<MuseumGlyphProps> = ({
